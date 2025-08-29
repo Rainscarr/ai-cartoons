@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite", // Это для локальной разработки, на Render НЕ используется
-    "build": "vite build", // Это команда сборки, Render запустит ее сам
-    "preview": "vite preview --host 0.0.0.0 --port 10000", // Это самое главное!
-    "start": "vite preview --host 0.0.0.0 --port 10000" // Можно и так, но лучше preview
+    "dev": "vite",
+    "build": "vite build", 
+    "preview": "vite preview --host 0.0.0.0 --port 10000", 
+    "start": "vite preview --host 0.0.0.0 --port 10000" 
   },
   "dependencies": {
     "framer-motion": "^11.0.0",
